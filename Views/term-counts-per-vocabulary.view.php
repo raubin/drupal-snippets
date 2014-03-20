@@ -50,6 +50,7 @@ $handler->display->display_options['fields']['machine_name']['id'] = 'machine_na
 $handler->display->display_options['fields']['machine_name']['table'] = 'taxonomy_vocabulary';
 $handler->display->display_options['fields']['machine_name']['field'] = 'machine_name';
 $handler->display->display_options['fields']['machine_name']['group_type'] = 'count';
+$handler->display->display_options['fields']['machine_name']['label'] = 'Term count';
 
 /* Display: Page */
 $handler = $view->new_display('page', 'Page', 'page');
@@ -71,6 +72,6 @@ $translatables['term_counts'] = array(
   t('next ›'),
   t('last »'),
   t('Name'),
-  t('Machine name'),
+  t('Term count'),
   t('Page'),
 );
